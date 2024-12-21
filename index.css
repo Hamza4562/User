@@ -1,0 +1,43 @@
+.main{
+    width: 80vw;
+    height: 100vh;
+    color: #FF59B6;
+}
+.topCard{
+    text-align: center;
+}
+.bottomCard{
+    
+    padding-left:9vw ;
+ }
+.navCard{
+    display: flex;
+    flex-direction: row;
+    gap: 2vh;
+    padding-left: 9vw;
+
+}
+.topCard h2{
+    font-size: 2vw;
+}
+.CardOne{
+    background-color: lightpink;
+    border-radius: 2vh;
+    width: 5vw;
+    height: 8vh;
+}
+.bottomcardLeft {
+    width: 16.5vw;
+     }
+.carddetailOne{
+    padding-top: 2vh;
+    margin: 0vw;
+}
+.carddetailTwo{
+    padding-top: 1.5vh;
+    margin: 0vh;
+}
+.carddetailThree{
+    padding-top: 3vh;
+    margin: 0vh;
+}
