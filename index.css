@@ -9,12 +9,16 @@
 .bottomCard{
     
     padding-left:9vw ;
+    display: flex;
+    gap: 3vh;
  }
 .navCard{
     display: flex;
+    align-items: center;
     flex-direction: row;
     gap: 2vh;
     padding-left: 9vw;
+    
 
 }
 .topCard h2{
@@ -24,7 +28,11 @@
     background-color: lightpink;
     border-radius: 2vh;
     width: 5vw;
-    height: 8vh;
+    height: 5vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
 }
 .bottomcardLeft {
     width: 16.5vw;
@@ -40,4 +48,10 @@
 .carddetailThree{
     padding-top: 3vh;
     margin: 0vh;
+}
+.bottomparent{
+    display: flex;
+    flex-direction: column;
+    gap: 6vh;
+
 }
